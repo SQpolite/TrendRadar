@@ -131,15 +131,27 @@ rss:
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
-     
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+    - id: "World News - Breaking News, Top Stories"
+      name: "World News"
+      url: "https://www.huffpost.com/syndication"
+      max_age_days: 3
+
+    - id: "CNN.com"
+      name: "CNN"
+      url: "https://edition.cnn.com/services/rss/"
+
+    - id: "World"
+      name: "World"
+      url: "http://feeds.washingtonpost.com/rss/world"
+      max_age_days: 2
+
+
+
+
 
     # 自定义源示例
     # - id: "custom-feed"
@@ -269,7 +281,7 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: ""                 # 钉钉机器人 webhook URL
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=50317c07889c3ea1d3c34f369e8087d75e3c6f845fc33017d6429e4b97c024ef"                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
@@ -365,7 +377,7 @@ ai:
 
   model: "deepseek/deepseek-v4-flash"
 
-  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: "sk-4be0f1cf280542038a3b3b00196e2811"                       # API Key（建议使用环境变量 AI_API_KEY）
   
   api_base: ""                      # 自定义 API 地址（可选，绝大多数情况留空即可）
                                     #
