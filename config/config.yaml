@@ -284,7 +284,7 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=50317c07889c3ea1d3c34f369e8087d75e3c6f845fc33017d6429e4b97c024ef"                 # 钉钉机器人 webhook URL
+      webhook_url: ""                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
@@ -348,13 +348,13 @@ storage:
     retention_days: 0                 # 保留天数（0=永久保留）
 
     # S3 兼容配置（或使用环境变量 S3_ENDPOINT_URL 等）
-    endpoint_url: ""                  # 服务端点
+    endpoint_url: "https://fcf80bba55dac5bd4a92206b10ac4f8c.r2.cloudflarestorage.com"                  # 服务端点
                                       # Cloudflare R2: https://<account_id>.r2.cloudflarestorage.com
                                       # 阿里云 OSS: https://oss-cn-hangzhou.aliyuncs.com
                                       # 腾讯云 COS: https://cos.ap-guangzhou.myqcloud.com
-    bucket_name: ""                   # 存储桶名称
-    access_key_id: ""                 # 访问密钥 ID
-    secret_access_key: ""             # 访问密钥
+    bucket_name: "trendradar"                   # 存储桶名称
+    access_key_id: "e4a62f2c6efd64ac0ccf99e6ccb13eee"                 # 访问密钥 ID
+    secret_access_key: "db1ce589567dc520b4ffec5ab8af6ded31f1cf8ded6b85bedb32569bf3c7dbf1"             # 访问密钥
     region: ""                        # 区域（可选，部分服务商需要）
 
   # 数据拉取（从远程同步到本地，用于 MCP Server 等场景）
