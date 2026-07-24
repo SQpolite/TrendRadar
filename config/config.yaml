@@ -149,6 +149,9 @@ rss:
       url: "http://feeds.washingtonpost.com/rss/world"
       max_age_days: 2
 
+    - id: "BBC News - World"
+      name: "BBC News"
+      url: "http://feeds.bbci.co.uk/news/world/rss.xml"
 
 
 
