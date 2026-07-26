@@ -142,7 +142,7 @@ rss:
 
     - id: "CNN.com"
       name: "CNN"
-      url: "https://edition.cnn.com/services/rss/"
+      url: "http://rss.cnn.com/rss/edition.rss"
 
     - id: "World"
       name: "World"
