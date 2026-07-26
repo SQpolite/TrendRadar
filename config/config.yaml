@@ -135,14 +135,6 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
-  - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
-
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-
     - id: "Al Jazeera"
       name: "Al Jazeera"
       url: "https://www.aljazeera.com/xml/rss/all.xml"
