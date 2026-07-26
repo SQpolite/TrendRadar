@@ -141,8 +141,12 @@ rss:
       max_age_days: 3
 
     - id: "CNN.com"
-      name: "CNN"
-      url: "http://rss.cnn.com/rss/edition.rss"
+      name: "CNN头条"
+      url: "http://rss.cnn.com/rss/cnn_topstories.rss"
+
+    - id: "CNN.com"
+      name: "CNN国际"
+      url: "http://rss.cnn.com/rss/edition_world.rss"
 
     - id: "World"
       name: "World"
