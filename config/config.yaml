@@ -146,7 +146,6 @@ rss:
     - id: "World"
       name: "World"
       url: "http://feeds.washingtonpost.com/rss/world"
-      max_age_days: 2
 
     - id: "BBC News - World"
       name: "BBC News"
