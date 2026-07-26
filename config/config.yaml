@@ -137,7 +137,7 @@ rss:
 
     - id: "World News - Breaking News, Top Stories"
       name: "World News"
-      url: "https://www.huffpost.com/syndication"
+      url: "https://www.huffpost.com/section/world-news/feed"
       max_age_days: 3
 
     - id: "CNN.com"
