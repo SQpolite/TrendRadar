@@ -99,14 +99,7 @@ platforms:
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
-      
-    - id: "CNN头条"
-      name: "CNN头条"
-      url: "http://rss.cnn.com/rss/cnn_topstories.rss"
 
-    - id: "CNN国际"
-      name: "CNN国际"
-      url: "http://rss.cnn.com/rss/edition_world.rss"
 
 
 # ===============================================================
@@ -158,7 +151,14 @@ rss:
     - id: "BBC News - World"
       name: "BBC News"
       url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+      
+    - id: "CNN头条"
+      name: "CNN头条"
+      url: "http://rss.cnn.com/rss/cnn_topstories.rss"
 
+    - id: "CNN国际"
+      name: "CNN国际"
+      url: "http://rss.cnn.com/rss/edition_world.rss"
 
 
 
