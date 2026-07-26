@@ -137,7 +137,7 @@ rss:
 
     - id: "Al Jazeera"
       name: "Al Jazeera"
-      url: "https://aljazeera.com"
+      url: "https://www.aljazeera.com/xml/rss/all.xml"
 
     - id: "Yahoo News"
       name: "Yahoo News (World)"
