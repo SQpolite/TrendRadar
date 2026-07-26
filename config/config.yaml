@@ -135,18 +135,7 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
-    - id: "World News - Breaking News, Top Stories"
-      name: "World News"
-      url: "https://www.huffpost.com/section/world-news/feed"
-      max_age_days: 3
 
-    - id: "CNN.com"
-      name: "CNN头条"
-      url: "http://rss.cnn.com/rss/cnn_topstories.rss"
-
-    - id: "CNN.com"
-      name: "CNN国际"
-      url: "http://rss.cnn.com/rss/edition_world.rss"
 
     - id: "World"
       name: "World"
