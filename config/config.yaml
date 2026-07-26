@@ -126,6 +126,7 @@ rss:
   # - 不配置：使用全局 freshness_filter.max_age_days（默认 3 天）
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
+  # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
     - id: "hacker-news"
       name: "Hacker News"
@@ -151,18 +152,6 @@ rss:
     - id: "BBC News - World"
       name: "BBC News"
       url: "http://feeds.bbci.co.uk/news/world/rss.xml"
-
-    - id: "CNN国际"
-      name: "CNN国际"
-      url: "http://rss.cnn.com/rss/edition_world.rss"
-
-    - id: "xinhuanet"
-      name: "新华网"
-      url: "http://www.xinhuanet.com/rss.htm"
-
-   - id: "sohu"
-      name: "搜狐"
-      url: "http://rss.news.sohu.com/"
 
     - id: "reuters"
       name: "路透中文"
