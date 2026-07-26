@@ -160,7 +160,13 @@ rss:
       name: "新华网"
       url: "http://www.xinhuanet.com/rss.htm"
 
-    
+   - id: "sohu"
+      name: "搜狐"
+      url: "http://rss.news.sohu.com/"
+
+    - id: "reuters"
+      name: "路透中文"
+      url: "http://cn.reuters.com/tools/rss/"  
     
     
     
