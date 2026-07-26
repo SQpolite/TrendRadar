@@ -156,8 +156,14 @@ rss:
       name: "CNN国际"
       url: "http://rss.cnn.com/rss/edition_world.rss"
 
+    - id: "xinhuanet"
+      name: "新华网"
+      url: "http://www.xinhuanet.com/rss.htm"
 
-
+    
+    
+    
+    
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
