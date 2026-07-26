@@ -135,6 +135,14 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+  - id: "hacker-news"
+      name: "Hacker News"
+      url: "https://hnrss.org/frontpage"
+
+    - id: "yahoo-finance"
+      name: "雅虎财经"
+      url: "https://finance.yahoo.com/news/rssindex"
+
     - id: "Al Jazeera"
       name: "Al Jazeera"
       url: "https://www.aljazeera.com/xml/rss/all.xml"
@@ -146,14 +154,11 @@ rss:
     - id: "World"
       name: "World"
       url: "http://feeds.washingtonpost.com/rss/world"
+      max_age_days: 2
 
     - id: "BBC News - World"
       name: "BBC News"
       url: "http://feeds.bbci.co.uk/news/world/rss.xml"
-      
-    - id: "CNN头条"
-      name: "CNN头条"
-      url: "http://rss.cnn.com/rss/cnn_topstories.rss"
 
     - id: "CNN国际"
       name: "CNN国际"
