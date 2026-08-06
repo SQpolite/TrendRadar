@@ -99,6 +99,15 @@ platforms:
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
+    - id: "people"
+      name: "人民网"
+      expected_domain: "people.com.cn"
+    - id: "xinhuashe"
+      name: "新华社"
+      expected_domain: "news.cn/xinhuashe"
+    - id: "qstheory"
+      name: "求是"
+      expected_domain: "qstheory.cn"
 
 
 
