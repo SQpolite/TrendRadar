@@ -1294,7 +1294,7 @@ GitHub Pages 在国内访问较慢，[Cloudflare Pages](https://pages.cloudflare
    **2. 克隆并运行**
 
    ```bash
-   git clone https://github.com/sansan0/TrendRadar.git
+   git clone https://github.com/SQpolite/TrendRadar.git
    cd TrendRadar
    uv sync          # 自动安装 Python 和项目依赖
    uv run python -m trendradar
